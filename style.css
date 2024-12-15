@@ -100,6 +100,7 @@ a{
     width: 480px;
     height: 48px;
 }
+
 #input {
     border: none;
     outline: none;
@@ -114,7 +115,7 @@ a{
 }
 
 .tis{
-    font-size: large;
+    font-size: x-large;
     color: #ddd;
     opacity: 0.4;
 }
@@ -124,6 +125,20 @@ a{
 .po:hover{
     background-color: #313131;
     border: solid #858383b5 0.4px;
+}
+
+.divide{
+    width: 10%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #ddd;
+    margin-left: 30%;
+    opacity: 0.7;
+}
+.divide:hover{
+    opacity: 1;
 }
 .nav-option{
     line-height: 3.5rem;
@@ -219,7 +234,6 @@ a{
 .sticky-nav-options{
     display: flex;
     flex: 1;
-    justify-content: baseline;
     align-items: center;
 }
 .nav-item{
